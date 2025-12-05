@@ -1,0 +1,106 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="home.css">
+  </head>
+  <body>
+    
+    <header>
+    <nav>
+      <div class="">
+        <h1>ZiYu</h1>
+        <h2></h2>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#coding">Portfolio</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <section class="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm <span>Lau Zi Yu</span></h2>
+      <p>Programmer | Video Editor | Photographer</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am a passionate app developer with experience in creating dynamic websites and applications. I also love creating contents through the eye of camera.</p>
+  </section>
+
+  <section id="coding" class="coding">
+    <h2>Coding</h2>
+    <div class="coding-cards">
+      <div class="card" onclick="cardClickedWeb1">
+        <h3>HTML/CSS</h3>
+        <p>Building beautiful, responsive websites.</p>
+      </div>
+      <div class="card">
+        <h3>Python</h3>
+        <p>Designing app, engaging software</p>
+      </div>
+      <div class="card" onclick="cardClickedWeb2">
+        <h3>Javascript</h3>
+        <p>Making interactive websites with JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Video Editor</h2>
+    <div class="project-cards">
+      <div class="card" onclick="cardClickedYT()">
+        <h3>YouTube</h3>
+        <p>Amaze by creativity</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="photos" class="photos">
+    <h2>Photos</h2>
+    <div class="photos-cards">
+      <div class="card" onclick="cardClickedIG()">
+        <h3>Instagram</h3>
+        <p>Eye opening and Wonderful Images</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="cta-button">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 John Doe. All rights reserved.</p>
+  </footer>
+
+  <script>
+        function cardClickedYT() {
+            window.location.href = "https://www.youtube.com/@xoffee04";
+        }
+
+        function cardClickedIG() {
+            window.location.href = "https://www.instagram.com/jaxleechang";
+        }
+
+        function cardClickedWeb1() {
+            window.location.href = "https://whiteboard-magic-button.lovable.app";
+        }
+
+        function cardClickedWeb2() {
+            window.location.href = "https://ihatemate.lovable.app";
+        }
+
+    </script>
+
+  </body>
+</html> 
