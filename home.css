@@ -168,9 +168,77 @@ footer {
   text-align: center;
 }
 
+@media (max-width: 768px) {
 
+  /* Navbar stacks better */
+  header nav {
+    flex-direction: column;
+    gap: 15px;
+  }
 
+  header ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
 
+  header h1 {
+    font-size: 24px;
+  }
 
+  /* Hero section scales */
+  .hero {
+    padding: 60px 10px;
+  }
 
+  .hero h2 {
+    font-size: 28px;
+  }
 
+  /* Cards become vertical instead of side-by-side */
+  .coding .coding-cards,
+  .projects .project-cards,
+  .photos .photos-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;   /* full width on mobile */
+    max-width: 350px;
+  }
+
+  .about, .coding, .projects, .contact {
+    padding: 30px 10px;
+  }
+}
+
+/* Very small phones (screen ≤ 480px) */
+@media (max-width: 480px) {
+
+  header h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  header ul {
+    gap: 10px;
+  }
+
+  #darkModeToggle {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .hero h2 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .contact form {
+    width: 95%;
+  }
+}
