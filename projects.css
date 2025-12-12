@@ -16,6 +16,16 @@ header {
   padding: 1rem;
 }
 
+header h1 a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header h1 a:hover {
+  opacity: 0.8;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -75,3 +85,4 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
