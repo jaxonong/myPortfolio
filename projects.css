@@ -73,10 +73,13 @@ header nav {
 header ul {
   list-style: none;
   display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 0;
 }
 
 header ul li {
-  margin-left: 20px;
+  margin: 0;
 }
 
 header ul li a {
@@ -128,5 +131,6 @@ footer {
   text-align: center;
   margin-top: auto;
 }
+
 
 
