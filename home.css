@@ -176,7 +176,7 @@ body.dark-mode .about-card {
   text-align: center;
 }
 
-.coding h2, .projects h2, .photos h2, .contact h2{
+.about, .coding h2, .projects h2, .photos h2, .contact h2{
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -241,6 +241,7 @@ footer {
   text-align: center;
   margin-top: auto;
 }
+
 
 
 
