@@ -17,6 +17,37 @@ body {
   flex-direction: column;
 }
 
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+#darkModeToggle {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #e0e0e0;
+}
+
+body.dark-mode #darkModeToggle {
+  background: #444;
+  color: #fff;
+}
+
+body.dark-mode .card {
+  background-color: #2a2a2a;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .hero {
+  background-color: #1d4c91;
+  color: white;
+  padding: 100px 0px;
+  text-align: center;
+}
+
 header {
   background-color: #333;
   color: #fff;
@@ -97,4 +128,5 @@ footer {
   text-align: center;
   margin-top: auto;
 }
+
 
