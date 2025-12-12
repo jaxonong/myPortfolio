@@ -46,6 +46,10 @@ header ul li a {
   text-decoration: none;
 }
 
+header ul li a:hover {
+  opacity: 0.8;
+}
+
 .about, .coding, .projects, .photos, .contact{
   padding: 50px 20px;
   text-align: center;
@@ -85,4 +89,5 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
 
