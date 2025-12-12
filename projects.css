@@ -133,6 +133,66 @@ footer {
   margin-top: auto;
 }
 
+/* ============================
+   MOBILE RESPONSIVE DESIGN
+   ============================ */
 
+/* Tablet & phones */
+@media (max-width: 768px) {
 
+  /* NAVBAR */
+  nav {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
 
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header h1 a {
+    font-size: 22px;
+  }
+
+  /* CODING CARDS – STACK VERTICALLY */
+  .coding-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .coding h2 {
+    font-size: 26px;
+  }
+
+  section.coding {
+    padding: 30px 10px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  header h1 a {
+    font-size: 18px;
+  }
+
+  #darkModeToggle {
+    padding: 8px 12px;
+  }
+
+  .card h3 {
+    font-size: 20px;
+  }
+}
