@@ -98,6 +98,10 @@ header ul li a {
   text-decoration: none;
 }
 
+header ul li a:hover {
+  opacity: 0.8;
+}
+
 .hero {
   background-color: #59b8d4;
   color: white;
@@ -195,5 +199,6 @@ footer {
   text-align: center;
   margin-top: auto;
 }
+
 
 
