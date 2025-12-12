@@ -26,3 +26,16 @@ const observer = new IntersectionObserver(entries => {
 });
 
 fadeElements.forEach(el => observer.observe(el));
+
+const quotes = [
+  "Keep pushing forward.",
+  "Every day is a chance to grow.",
+  "Small steps lead to big achievements.",
+  "Code, create, and conquer.",
+  "Your future is built today.",
+  "Believe in your progress.",
+  "Dream it. Build it."
+];
+
+document.getElementById("quoteText").textContent =
+  quotes[Math.floor(Math.random() * quotes.length)];
