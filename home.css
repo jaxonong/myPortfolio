@@ -55,12 +55,13 @@ header nav {
 }
 
 header ul {
-  list-style: none;
+  align-items: center;
   display: flex;
+  gap: 20px;
 }
 
 header ul li {
-  margin-left: 20px;
+  margin-left: 0;
 }
 
 header ul li a {
@@ -164,6 +165,7 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
 
 
 
