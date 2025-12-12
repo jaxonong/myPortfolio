@@ -171,7 +171,7 @@ body.dark-mode .about-card {
   box-shadow: 0 4px 12px rgba(255,255,255,0.1);
 }
 
-.about .coding, .projects, .photos, .contact{
+.about, .coding, .projects, .photos, .contact{
   padding: 50px 20px;
   text-align: center;
 }
@@ -241,6 +241,7 @@ footer {
   text-align: center;
   margin-top: auto;
 }
+
 
 
 
