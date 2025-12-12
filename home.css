@@ -102,6 +102,13 @@ header ul li a:hover {
   opacity: 0.8;
 }
 
+#quoteText {
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
 .hero {
   background-color: #59b8d4;
   color: white;
@@ -199,6 +206,7 @@ footer {
   text-align: center;
   margin-top: auto;
 }
+
 
 
 
