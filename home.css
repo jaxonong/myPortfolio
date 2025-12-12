@@ -8,6 +8,25 @@
 body {
   background-color: #f4f4f4;
   color: #333;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+#darkModeToggle {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #e0e0e0;
+}
+
+body.dark-mode #darkModeToggle {
+  background: #444;
+  color: #fff;
 }
 
 header {
@@ -130,4 +149,5 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
 
